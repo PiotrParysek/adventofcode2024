@@ -1,5 +1,8 @@
 */target/
+target/*
 */Cargo.lock
+Cargo.lock
+.vscode/
 .git_push
 .future_me.md
 *.txt
