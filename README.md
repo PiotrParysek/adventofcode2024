@@ -9,10 +9,44 @@ This is a template for solving Advent of Code puzzles in Rust.
 It's structured as a single Cargo crate with a library and a binary.
 
 - `src/lib.rs`: Contains the main solve function that dispatches to the correct day's module. It also declares all day modules.
-- `src/bin/main.rs`: A simple command-line runner that parses args (day, part) and calls solve.
+- `src/main.rs`: A simple command-line runner that parses args (day, part) and calls solve.
 - `src/common.rs`: For any shared helper functions (like reading input).
 - `src/dayXX.rs`: Each day gets its own module file.
 - `input/`: This directory holds your puzzle inputs.
+- `tasks/`: This directory holds your puzzle description
+
+### TASKS
+
+Table for `README` for each task and if the task is completed
+
+| DAY | TASK 1 | TASK 2 |
+| :---: | :---: | :---: |
+| [day 1](./tasks/day_1.md) | &#10003; | &#10003; |
+| [day 2](./tasks/day_2.md) | &#10003; | &#10003; |
+| [day 3](./tasks/day_3.md) | &#10003; | &#10003; |
+| [day 4](./tasks/day_4.md) | | |
+| [day 5](./tasks/day_5.md) | | |
+| [day 6](./tasks/day_6.md) | | |
+| [day 7](./tasks/day_7.md) | | |
+| [day 8](./tasks/day_8.md) | | |
+| [day 9](./tasks/day_9.md) | | |
+| [day 10](./tasks/day_10.md) | | |
+| [day 11](./tasks/day_11.md) | | |
+| [day 12](./tasks/day_12.md) | | |
+| [day 13](./tasks/day_13.md) | | |
+| [day 14](./tasks/day_14.md) | | |
+| [day 15](./tasks/day_15.md) | | |
+| [day 16](./tasks/day_16.md) | | |
+| [day 17](./tasks/day_17.md) | | |
+| [day 18](./tasks/day_18.md) | | |
+| [day 19](./tasks/day_19.md) | | |
+| [day 20](./tasks/day_20.md) | | |
+| [day 21](./tasks/day_21.md) | | |
+| [day 22](./tasks/day_22.md) | | |
+| [day 23](./tasks/day_23.md) | | |
+| [day 24](./tasks/day_24.md) | | |
+| [day 25](./tasks/day_25.md) | | |
+
 
 ### How to Use
 

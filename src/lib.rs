@@ -1,7 +1,8 @@
 pub mod common;
 pub mod day01;
-// pub mod day02;
-//TODO: fix day02-day11
+pub mod day02;
+pub mod day03;
+pub mod day04;
 
 /// Solves the given day's puzzle.
 ///
@@ -12,7 +13,7 @@ pub mod day01;
 /// (e.g., u32, String) into a String for printing.
 pub fn solve(day: u8, part: u8, input: &str) -> String {
     match day {
-        //!ACHTUNG For next  days, pattern:
+        // ACHTUNG For next  days, pattern:
         // DD => match part {
         //     1 => dayDD::part1(input).to_string(),
         //     2 => dayDD::part2(input).to_string(),
@@ -23,16 +24,26 @@ pub fn solve(day: u8, part: u8, input: &str) -> String {
             2 => day01::part2(input).to_string(),
             _ => "Invalid part".to_string(),
         },
-        // 2 => match part {
-        //     1 => day02::part1(input).to_string(),
-        //     2 => day02::part2(input).to_string(),
-        //     _ => "Invalid part".to_string(),
-        // },
-        12 => match part {
-            1 => day12::part1(input).to_string(),
-            2 => day12::part2(input).to_string(),
+        2 => match part {
+            1 => day02::part1(input).to_string(),
+            2 => day02::part2(input).to_string(),
             _ => "Invalid part".to_string(),
         },
+        3 => match part {
+            1 => day03::part1(input).to_string(),
+            2 => day03::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        4 => match part {
+            1 => day04::part1(input).to_string(),
+            2 => day04::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        // 12 => match part {
+        //     1 => day12::part1(input).to_string(),
+        //     2 => day12::part2(input).to_string(),
+        //     _ => "Invalid part".to_string(),
+        // },
         // Add more days here
         _ => "Invalid day".to_string(),
     }

@@ -1,6 +1,22 @@
-// Template for Day XY of Advent of Code 2024
 
 pub fn part1(input: &str) -> u32 {
+    let mut line_validator = 0;
+    for line in input.lines(){
+        // println!("{}", line);
+        // Split line by whitespace, parse it into i32 and 'wrap' it into vec
+        let level: Vec<i32> = line.split_whitespace()
+        .map(|s| s.to_string().parse::<i32>().unwrap()).collect(); 
+        // Check if the line is 'valid'
+        if is_valid_line(&level) && is_valid_stable(&level) {
+            // println!("Line: {} is valid", line);
+            line_validator += 1;
+        }
+    }
+    // println!("Valid lines: {}", line_validator);
+    line_validator
+}
+
+pub fn part2(input: &str) -> u32 {
     let mut line_validator = 0;
     for line in input.lines(){
         // println!("{}", line);
@@ -28,10 +44,6 @@ pub fn part1(input: &str) -> u32 {
     }
     // println!("Valid lines: {}", line_validator);
     line_validator
-}
-
-pub fn part2(input: &str) -> u32 {
-    0
 }
 
 /// Check if difference between next two elements is 1, 2 or 3
@@ -67,7 +79,6 @@ fn is_valid_stable(line: &[i32]) -> bool {
 mod tests {
     use super::*;
 
-    // TODO: Add sample input from the problem
     const SAMPLE_INPUT: &str = "7 6 4 2 1
 1 2 7 8 9
 9 7 6 2 1
