@@ -183,13 +183,11 @@ mod tests {
 97,13,75,29,47";
 
     #[test]
-    #[ignore] // Remove this line when you have a test
     fn test_part1() {
         assert_eq!(part1(SAMPLE_INPUT), 143);
     }
 
     #[test]
-    #[ignore] // Remove this line when you have a test
     fn test_part2() {
         assert_eq!(part2(SAMPLE_INPUT), 123);
     }

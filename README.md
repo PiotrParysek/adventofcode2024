@@ -24,10 +24,10 @@ Table for `README` for each task and if the task is completed
 | [day 1](./tasks/day_1.md) | &#10003; | &#10003; |
 | [day 2](./tasks/day_2.md) | &#10003; | &#10003; |
 | [day 3](./tasks/day_3.md) | &#10003; | &#10003; |
-| [day 4](./tasks/day_4.md) | | |
-| [day 5](./tasks/day_5.md) | | |
-| [day 6](./tasks/day_6.md) | | |
-| [day 7](./tasks/day_7.md) | | |
+| [day 4](./tasks/day_4.md) | &#10003; | &#10003; |
+| [day 5](./tasks/day_5.md) | &#10003; | &#10003; |
+| [day 6](./tasks/day_6.md) | &#10003; | |
+| [day 7](./tasks/day_7.md) | &#10003; | &#10003; |
 | [day 8](./tasks/day_8.md) | | |
 | [day 9](./tasks/day_9.md) | | |
 | [day 10](./tasks/day_10.md) | | |

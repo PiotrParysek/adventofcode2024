@@ -202,13 +202,11 @@ MAMMMXMMMM
 MXMXAXMASX";
 
     #[test]
-    #[ignore] // Remove this line when you have a test
     fn test_part1() {
         assert_eq!(part1(SAMPLE_INPUT), 18);
     }
 
     #[test]
-    #[ignore] // Remove this line when you have a test
     fn test_part2() {
         assert_eq!(part2(SAMPLE_INPUT), 9);
     }
