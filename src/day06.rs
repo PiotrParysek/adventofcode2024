@@ -121,7 +121,7 @@ fn play(puzzle: &[Vec<char>], start_position: (isize, isize)) -> (Option<Vec<Vec
 /**
  * View the puzzle - debugging 
  */
-#[warn(dead_code)]
+#[allow(dead_code)]
 fn view_puzzle(puzzle: &[Vec<char>]) {
     for puz in puzzle {
         for p in puz {

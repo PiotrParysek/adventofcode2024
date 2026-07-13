@@ -7,6 +7,9 @@ pub mod day05;
 pub mod day06;
 pub mod day07;
 pub mod day08;
+pub mod day09;
+pub mod day10;
+pub mod day11;
 
 /// Solves the given day's puzzle.
 ///
@@ -61,6 +64,21 @@ pub fn solve(day: u8, part: u8, input: &str) -> String {
         8 => match part {
             1 => day08::part1(input).to_string(),
             2 => day08::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        9 => match part {
+            1 => day09::part1(input).to_string(),
+            2 => day09::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        10 => match part {
+            1 => day10::part1(input).to_string(),
+            2 => day10::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        11 => match part {
+            1 => day11::part1(input).to_string(),
+            2 => day11::part2(input).to_string(),
             _ => "Invalid part".to_string(),
         },
         // 12 => match part {
