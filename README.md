@@ -21,18 +21,18 @@ Table for `README` for each task and if the task is completed
 
 | DAY | TASK 1 | TASK 2 |
 | :---: | :---: | :---: |
-| [day 1](./tasks/day_1.md) | &#10003; | &#10003; |
-| [day 2](./tasks/day_2.md) | &#10003; | &#10003; |
-| [day 3](./tasks/day_3.md) | &#10003; | &#10003; |
-| [day 4](./tasks/day_4.md) | &#10003; | &#10003; |
-| [day 5](./tasks/day_5.md) | &#10003; | &#10003; |
-| [day 6](./tasks/day_6.md) | &#10003; | |
-| [day 7](./tasks/day_7.md) | &#10003; | &#10003; |
-| [day 8](./tasks/day_8.md) | | |
-| [day 9](./tasks/day_9.md) | | |
-| [day 10](./tasks/day_10.md) | | |
-| [day 11](./tasks/day_11.md) | | |
-| [day 12](./tasks/day_12.md) | | |
+| [day 1](./tasks/day_1.md)   | &#10003; | &#10003; |
+| [day 2](./tasks/day_2.md)   | &#10003; | &#10003; |
+| [day 3](./tasks/day_3.md)   | &#10003; | &#10003; |
+| [day 4](./tasks/day_4.md)   | &#10003; | &#10003; |
+| [day 5](./tasks/day_5.md)   | &#10003; | &#10003; |
+| [day 6](./tasks/day_6.md)   | &#10003; | |
+| [day 7](./tasks/day_7.md)   | &#10003; | &#10003; |
+| [day 8](./tasks/day_8.md)   | &#10003; | |
+| [day 9](./tasks/day_9.md)   | &#10003; | &#10003; |
+| [day 10](./tasks/day_10.md) | &#10003; | &#10003; |
+| [day 11](./tasks/day_11.md) | &#10003; | &#10003; |
+| [day 12](./tasks/day_12.md) | &#10003; | &#10003; |
 | [day 13](./tasks/day_13.md) | | |
 | [day 14](./tasks/day_14.md) | | |
 | [day 15](./tasks/day_15.md) | | |

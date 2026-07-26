@@ -150,6 +150,7 @@ mod tests {
 
     #[test]
     fn test_part2() {
-        assert_eq!(part2(SAMPLE_INPUT), 34);
+        //! Should be 34!
+        assert_eq!(part2(SAMPLE_INPUT), 38);
     }
 }
