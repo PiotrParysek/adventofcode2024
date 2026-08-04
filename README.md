@@ -33,7 +33,7 @@ Table for `README` for each task and if the task is completed
 | [day 10](./tasks/day_10.md) | &#10003; | &#10003; |
 | [day 11](./tasks/day_11.md) | &#10003; | &#10003; |
 | [day 12](./tasks/day_12.md) | &#10003; | &#10003; |
-| [day 13](./tasks/day_13.md) | | |
+| [day 13](./tasks/day_13.md) | &#10003; | &#10003; |
 | [day 14](./tasks/day_14.md) | | |
 | [day 15](./tasks/day_15.md) | | |
 | [day 16](./tasks/day_16.md) | | |
