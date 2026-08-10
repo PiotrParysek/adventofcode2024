@@ -12,7 +12,7 @@ pub mod day10;
 pub mod day11;
 pub mod day12;
 pub mod day13;
-
+pub mod day14;
 
 /// Solves the given day's puzzle.
 ///
@@ -92,6 +92,11 @@ pub fn solve(day: u8, part: u8, input: &str) -> String {
         13 => match part {
             1 => day13::part1(input).to_string(),
             2 => day13::part2(input).to_string(),
+            _ => "Invalid part".to_string(),
+        },
+        14 => match part {
+            1 => day14::part1(input).to_string(),
+            2 => day14::part2(input).to_string(),
             _ => "Invalid part".to_string(),
         },
         // Add more days here
